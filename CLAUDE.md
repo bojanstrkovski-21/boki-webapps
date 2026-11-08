@@ -43,7 +43,7 @@ Colors that match the panel (archboki-dark): window background `#1d283a`, text `
 Global rules from `~/.agents` (confirm-first, no git unless asked, no force push) apply and are not
 repeated here. Project rules:
 - No libadwaita, no WebKit, no in-app back/forward bar, no system-wide install.
-- Do not vendor webapp-manager's CSS or its GPL Python.
+- This repository is MIT (`LICENSE`, copyright 2026 bojanstrkovski-21). Do not vendor webapp-manager's CSS or its GPL Python. The Firefox profile copied at runtime from an installed webapp-manager keeps that package's license and the firefox-csshacks MPL notice.
 - Do not edit the theme changer (`~/.config/chadboki-qswm/quickshell-scripts/dwm-quickshell-theme`) or the theme engine. Edit `theme.css` only when the user asks for a color change, and keep `DefaultCSS` in `internal/theme/theme.go` in step with that file.
 - Do not edit an existing `WebApp-*.desktop` unless the user asks for that file. `WebApp-Youtube6921.desktop` launches with Brave Origin. Leave it.
 - `~/.local/bin/brave-basic` calls `/usr/bin/brave`, which is not installed. The installed browser is `brave-origin`. The scanner still lists `brave-basic` because the script file exists. Do not hide it unless asked. `gio launch` can return 0 after a wrapper has already failed.

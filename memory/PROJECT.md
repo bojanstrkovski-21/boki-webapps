@@ -1,5 +1,22 @@
 # Project memory
 
+## Session 2: README, MIT license, end-session write-and-sync
+
+2026-11-09. The user pushed the repo, then said end-session.
+
+**Done:**
+
+- `CLAUDE.md` keeps this app's facts only. Confirm-first, git, and push stay in `~/.agents`. On "end session" or "end-session", write `memory/PROJECT.md` and sync `~/.agents/memory/` without asking, then report what was written. dwm-quickshell was not edited.
+- `README.md` credits webapp-manager (GPL-3.0-or-later), firefox-csshacks (MPL-2.0), gotk4 (MPL-2.0), and the `push.sh` / `set-git-cred.sh` templates from bole-labs-ai / session-defaults.
+- License is MIT. `LICENSE` matches the other repos: `Copyright (c) 2026 bojanstrkovski-21`.
+- User commit `890cf12` ("added memory") contains `CLAUDE.md`, `LICENSE`, `README.md`, and `memory/PROJECT.md` as of that commit. Local `main` matched `origin/main` at that commit when this session ended.
+
+**Open:**
+
+- This session entry and the MIT line in `CLAUDE.md` came after `890cf12`. They are not in that push.
+- `~/.agents` still has uncommitted memory edits: `MEMORY.md`, `feedback_write_global_memory_automatically.md`, and untracked `project_boki-webapps.md`. That repo was not pushed from here.
+- No `.gitignore` yet. Add one only if asked.
+
 ## Session 1 — 2026-11-09 — app built, instructions added
 
 **Done:**
