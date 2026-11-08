@@ -1,0 +1,4 @@
+github.com/diamondburned/gotk4/pkg v0.4.2-0.20261031204942-a6ab0d7b121f h1:kbtw4h+/UaWl4QIktSpivvcaolCeJoUix95jKSPP71M=
+github.com/diamondburned/gotk4/pkg v0.4.2-0.20261031204942-a6ab0d7b121f/go.mod h1:BAEEDXtj5srQ1S2++5HX2K1s9c6CtuWSa60dAywrkRM=
+golang.org/x/sync v0.0.0-20210220032951-036812b2e83c h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ=
+golang.org/x/sync v0.0.0-20210220032951-036812b2e83c/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
